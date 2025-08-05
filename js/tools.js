@@ -2,6 +2,7 @@
 
 const getElement = (selector) => document.querySelector(selector);
 
+//CONST
 let bidLineCounter = 0;
 let stackUndo = [];
 let stackRedo = [];
