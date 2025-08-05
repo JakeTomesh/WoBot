@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 async function chartVkp() {
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;
@@ -87,6 +88,7 @@ async function chartVkp() {
 async function chartNonVkp(){
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;

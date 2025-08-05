@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 function chartNonVkpTransfer(){
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;
@@ -55,6 +56,7 @@ function chartNonVkpTransfer(){
 function charVkpTransfer(){
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;

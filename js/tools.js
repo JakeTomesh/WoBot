@@ -182,6 +182,8 @@ function pushToStackUndo(){
 
 function clear(){
 
+    bidLineCounter = 0;
+    
     if(getElement("#input_text").value != ""){
 
         getElement("#input_text").value = "";

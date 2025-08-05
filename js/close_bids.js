@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 async function closeVkp() {
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;
@@ -97,6 +98,7 @@ async function closeVkp() {
 async function closeNonVkp(){
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;
@@ -188,6 +190,7 @@ async function closeNonVkp(){
 async function closeAll(){
 
     pushToStackUndo();
+    bidLineCounter = 0;
     const inputData = getElement("#input_text").value;
 
     let results;
